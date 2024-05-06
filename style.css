@@ -5,14 +5,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     height: 100vh;
-    background: linear-gradient(
-        135deg,
-        #000000,
-        #331774
-    );
+    background-image: url('./farm.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
+
 .container{
     width: 40%;
     min-width: 450px;
@@ -23,6 +23,7 @@ body{
     top: 30px;
     padding: 30px 40px;
 }
+
 #newitem{
     position: relative;
     background-color: #ffffff;
@@ -30,6 +31,7 @@ body{
     border-radius: 5px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
 }
+
 #newitem input{
     width: 70%;
     width: 70%;
@@ -43,9 +45,10 @@ body{
     position: relative;
     border-radius: 5px;
 }
+
 #newitem input:focus{
     outline: none;
-    border-color: #8052ec;
+    border-color: #059912;
 }
 
 #newitem button{
@@ -57,12 +60,13 @@ body{
     font-family: 'Poppins',sans-serif;
     font-weight: 500;
     font-size: 16px;
-    background-color: #8052ec;
+    background-color: #059912;
     border: none;
     color: #ffffff;
     cursor: pointer;
     outline: none;
 }
+
 #items{
     background-color: #ffffff;
     padding: 30px 20px;
@@ -72,6 +76,7 @@ body{
     width: 100%;
     position: relative;
 }
+
 .item{
     background-color: #ffffff;
     height: 50px;
@@ -83,13 +88,15 @@ body{
     border-bottom: 2px solid #d1d3d4;
     cursor: pointer;
 }
+
 .item span{
     font-family: 'Poppins',sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
+
 .item button{
-    background-color: #8052ec;
+    background-color: #059912;
     color: #ffffff;
     height: 100%;
     width: 40px;
@@ -98,6 +105,7 @@ body{
     cursor: pointer;
     outline: none;
 }
+
 .completed{
     text-decoration: line-through;
 }
