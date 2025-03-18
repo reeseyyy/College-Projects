@@ -26,9 +26,9 @@ export default function AboutPage() {
   };
 
   const members = [
-    { name: "Alice Johnson", image: "/default.png" },
-    { name: "Bob Smith", image: "/default.png" },
-    { name: "Charlie Davis", image: "/default.png" },
+    { name: "Aditya Ajay Sasane", image: "/default.png" },
+    { name: "Darshan Vijay Bhamare", image: "/default.png" },
+    { name: "Mayur Uttam Batave", image: "/default.png" },
   ];
 
   return (
